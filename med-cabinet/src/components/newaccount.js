@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import logo from "./images/logo.png"
 
+const initialFormValues={
+    email: '',
+    name: '',
+    password: '',
+    password2: ''
+}
 
 function NewAccount() {
     return (
